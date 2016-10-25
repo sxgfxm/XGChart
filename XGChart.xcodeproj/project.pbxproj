@@ -15,6 +15,8 @@
 		A05B750F1DBF0D350012D797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05B750D1DBF0D350012D797 /* LaunchScreen.storyboard */; };
 		A05B751A1DBF0D350012D797 /* XGChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05B75191DBF0D350012D797 /* XGChartTests.m */; };
 		A05B75251DBF0D350012D797 /* XGChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05B75241DBF0D350012D797 /* XGChartUITests.m */; };
+		A05B75351DBF0EDF0012D797 /* XGChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A05B75341DBF0EDF0012D797 /* XGChart.m */; };
+		A05B75381DBF2FDD0012D797 /* XGChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A05B75371DBF2FDD0012D797 /* XGChartConfiguration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A05B75201DBF0D350012D797 /* XGChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XGChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05B75241DBF0D350012D797 /* XGChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XGChartUITests.m; sourceTree = "<group>"; };
 		A05B75261DBF0D350012D797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05B75331DBF0EDF0012D797 /* XGChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XGChart.h; path = XGChart/XGChart.h; sourceTree = SOURCE_ROOT; };
+		A05B75341DBF0EDF0012D797 /* XGChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XGChart.m; path = XGChart/XGChart.m; sourceTree = SOURCE_ROOT; };
+		A05B75361DBF2FDD0012D797 /* XGChartConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XGChartConfiguration.h; path = XGChart/XGChartConfiguration.h; sourceTree = SOURCE_ROOT; };
+		A05B75371DBF2FDD0012D797 /* XGChartConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XGChartConfiguration.m; path = XGChart/XGChartConfiguration.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		A05B74FE1DBF0D350012D797 /* XGChart */ = {
 			isa = PBXGroup;
 			children = (
+				A05B753F1DBF7CF60012D797 /* XGChart */,
 				A05B75021DBF0D350012D797 /* AppDelegate.h */,
 				A05B75031DBF0D350012D797 /* AppDelegate.m */,
 				A05B75051DBF0D350012D797 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				A05B75261DBF0D350012D797 /* Info.plist */,
 			);
 			path = XGChartUITests;
+			sourceTree = "<group>";
+		};
+		A05B753F1DBF7CF60012D797 /* XGChart */ = {
+			isa = PBXGroup;
+			children = (
+				A05B75361DBF2FDD0012D797 /* XGChartConfiguration.h */,
+				A05B75371DBF2FDD0012D797 /* XGChartConfiguration.m */,
+				A05B75331DBF0EDF0012D797 /* XGChart.h */,
+				A05B75341DBF0EDF0012D797 /* XGChart.m */,
+			);
+			path = XGChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05B75381DBF2FDD0012D797 /* XGChartConfiguration.m in Sources */,
 				A05B75071DBF0D350012D797 /* ViewController.m in Sources */,
+				A05B75351DBF0EDF0012D797 /* XGChart.m in Sources */,
 				A05B75041DBF0D350012D797 /* AppDelegate.m in Sources */,
 				A05B75011DBF0D350012D797 /* main.m in Sources */,
 			);

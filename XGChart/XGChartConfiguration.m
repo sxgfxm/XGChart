@@ -37,6 +37,7 @@
 
 - (instancetype)initWithX:(CGFloat)x andY:(CGFloat)y {
   if (self = [super init]) {
+
     _x = x;
     _y = y;
   }
